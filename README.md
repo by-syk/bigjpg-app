@@ -1,9 +1,9 @@
 # BigJPG APP
 
+> [bigjpg.com](http://bigjpg.com) 授权第三方 Android APP
+
 [![](https://img.shields.io/badge/download-app-brightgreen.svg)](out/com.by_syk.bigjpg_v1.2.0(17081301).apk)
 [![](https://img.shields.io/badge/copyright-bigjpg.com-brightgreen.svg)](http://bigjpg.com)
-
-> [bigjpg.com](http://bigjpg.com) 授权第三方 Android APP
 
 
 ### bigjpg.com 是什么
