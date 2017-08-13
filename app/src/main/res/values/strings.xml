@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BigJPG</string>
+
+    <string name="url_bigjpg" translatable="false">http://bigjpg.com</string>
+    <string name="email_bigjpg" translatable="false">i@bigjpg.com</string>
+    <string name="email_bysyk" translatable="false">By_syk@163.com</string>
+
+    <string name="hint_choose_img">tap to open a photo</string>
+    <string name="action_optimize">optimize</string>
+    <string name="action_save">save</string>
+    <string name="type_art">art</string>
+    <string name="type_photo">photo</string>
+    <string name="scale_2x">2x</string>
+    <string name="scale_4x">4x</string>
+    <string name="scale_8x">8x</string>
+    <string name="scale_16x">16x</string>
+    <string name="denoise_no">no</string>
+    <string name="denoise_low">low</string>
+    <string name="denoise_middle">mid</string>
+    <string name="denoise_high">high</string>
+    <string name="denoise_super">super</string>
+    <string name="copyright" translatable="false">©bigjpg.com</string>
+    <string name="status_no_network">no network connection</string>
+    <string name="status_error">error</string>
+    <string name="status_uploading">uploading&#8230;</string>
+    <string name="status_waiting">waiting&#8230;</string>
+    <string name="status_processing">optimizing&#8230;</string>
+    <string name="status_downloading">downloading&#8230;</string>
+    <string name="status_saved">saved</string>
+    <string name="status_over_size_0">over 2mb</string>
+    <string name="status_over_size_1">over 10mb</string>
+    <string name="status_over_resolution">over 3000px</string>
+    <string name="status_timeout">timeout</string>
+    <string name="status_over_times">over times</string>
+    <string name="status_err_upload">upload err: %s</string>
+    <string name="status_try_later">try later</string>
+    <string name="status_not_img">not image</string>
+    <string name="notify_done">done optimizing</string>
+    <string name="login_desc"><u>faster, more and stabler? sign in now</u></string>
+    <string name="label_email">email</string>
+    <string name="label_pwd">password</string>
+    <string name="action_login">sign in</string>
+    <string name="reg_desc"><u>no account? to sign up</u></string>
+    <string name="slogan_welcome">welcome to bigjpg</string>
+    <string name="slogan_login">signing in&#8230;</string>
+    <string name="slogan_check">checking config&#8230;</string>
+    <string name="status_err_pwd">error password</string>
+    <string name="status_login_failed">login failure</string>
+    <string name="status_check_failed">check failure</string>
+    <string name="user_grade_undefined">undefined</string>
+    <string name="user_grade_free">free plan</string>
+    <string name="user_grade_basic">basic plan</string>
+    <string name="user_grade_standard">standard plan</string>
+    <string name="user_grade_pro">pro plan</string>
+    <string name="config_user">user</string>
+    <string name="hint_user_free">you are signed in already</string>
+    <string name="hint_user_vip">you are already a vip</string>
+    <string name="action_start">start to use</string>
+    <string name="about_dev_label">developer</string>
+    <string name="about_dev" translatable="false"><b>By_syk</b></string>
+    <string name="about_copyright_label">copyright</string>
+    <string name="about_copyright" translatable="false"><b>bigjpg.com</b></string>
+    <string name="about_site_label">online</string>
+    <string name="about_site" translatable="false"><u>http://bigjpg.com</u></string>
+    <string name="share_label">Enlarge &amp; denoise</string>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BigJPG</string>
+
+    <string name="hint_choose_img">打开图片进行优化</string>
+    <string name="action_optimize">开始优化</string>
+    <string name="action_save">保存</string>
+    <string name="type_art">插画</string>
+    <string name="type_photo">照片</string>
+    <string name="scale_2x">2x</string>
+    <string name="scale_4x">4x</string>
+    <string name="scale_8x">8x</string>
+    <string name="scale_16x">16x</string>
+    <string name="denoise_no">不降噪</string>
+    <string name="denoise_low">低</string>
+    <string name="denoise_middle">中</string>
+    <string name="denoise_high">高</string>
+    <string name="denoise_super">最高</string>
+    <string name="status_no_network">无网络连接</string>
+    <string name="status_error">出错</string>
+    <string name="status_uploading">正在上传&#8230;</string>
+    <string name="status_waiting">等待处理&#8230;</string>
+    <string name="status_processing">正在优化&#8230;</string>
+    <string name="status_downloading">正在下载&#8230;</string>
+    <string name="status_saved">保存成功</string>
+    <string name="status_over_size_0">超过2MB</string>
+    <string name="status_over_size_1">超过10MB</string>
+    <string name="status_over_resolution">超过3000px</string>
+    <string name="status_timeout">超时</string>
+    <string name="status_err_upload">上传出错(%s</string>
+    <string name="status_over_times">次数用尽</string>
+    <string name="status_try_later">稍后再试</string>
+    <string name="status_not_img">无效图片</string>
+    <string name="notify_done">优化完成</string>
+    <string name="login_desc"><u>更快、更多、更稳定？登录吧</u></string>
+    <string name="label_email">邮箱</string>
+    <string name="label_pwd">密码</string>
+    <string name="action_login">登录</string>
+    <string name="reg_desc"><u>没有帐号？去注册并成为付费用户</u></string>
+    <string name="slogan_welcome">欢迎使用 BigJPG</string>
+    <string name="slogan_login">正在登录&#8230;</string>
+    <string name="slogan_check">检查配置&#8230;</string>
+    <string name="status_err_pwd">密码错误</string>
+    <string name="status_login_failed">登录失败</string>
+    <string name="status_check_failed">检查失败</string>
+    <string name="user_grade_undefined">未知</string>
+    <string name="user_grade_free">免费版</string>
+    <string name="user_grade_basic">基础版</string>
+    <string name="user_grade_standard">标准版</string>
+    <string name="user_grade_pro">高级版</string>
+    <string name="config_user">用户</string>
+    <string name="hint_user_free">您已登录，但尚未成为付费用户</string>
+    <string name="hint_user_vip">您已成为付费用户</string>
+    <string name="action_start">开始使用</string>
+    <string name="about_dev_label">开发方</string>
+    <string name="about_copyright_label">版权所有</string>
+    <string name="about_site_label">官网</string>
+    <string name="share_label">放大 &amp; 降噪</string>
+
+</resources>

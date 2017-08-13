@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="bar_ad">36dp</dimen>
+    <dimen name="bar_action">56dp</dimen>
+    <dimen name="bar_config">48dp</dimen>
+    <dimen name="bar_copyright">40dp</dimen>
+    <!-- bar_ad + bar_action -->
+    <dimen name="panel_peeking">92dp</dimen>
+    <!-- bar_config x 3 + bar_copyright + 16 -->
+    <dimen name="hint_margin_bottom">200dp</dimen>
+    <dimen name="flower">144dp</dimen>
+    <dimen name="config_dot_margin">6dp</dimen>
+
+</resources>

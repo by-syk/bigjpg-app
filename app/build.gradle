@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "26.0.0"
+
+    defaultConfig {
+        applicationId "com.by_syk.bigjpg"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 17081301
+        versionName "1.2.0"
+
+        vectorDrawables.generatedDensities = ['hdpi', 'xhdpi', 'xxhdpi', 'xxxhdpi']
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    testCompile 'junit:junit:4.12'
+
+    compile 'com.android.support:design:25.3.1'
+
+    compile 'com.github.by-syk:SP:1.0.9'
+    compile 'com.github.by-syk:TextTag:1.1.0'
+    compile 'com.github.by-syk:UriAnalyser:1.0.4'
+    compile 'com.github.by-syk:CheckImgFormat:1.0.2'
+
+    compile 'com.squareup.retrofit2:retrofit:2.2.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.2.0'
+
+    compile 'com.github.chrisbanes:PhotoView:2.0.0'
+}

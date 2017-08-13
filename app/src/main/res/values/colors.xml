@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorAccent">#ff4caf50</color>
+
+    <color name="bg">#ff212121</color>
+    <color name="bar_action_bg">#ff424242</color>
+    <color name="bar_config_bg">#ff323232</color>
+    <color name="bar_config_focus_bg">#ff212121</color>
+    <color name="hint">#80bebebe</color>
+    <color name="tag">#cd4caf50</color>
+    <color name="progress">#cd4caf50</color>
+    <color name="dot">#cd4caf50</color>
+    <color name="reg_text">#cd4caf50</color>
+    <color name="ad_bg">#66000000</color>
+
+</resources>

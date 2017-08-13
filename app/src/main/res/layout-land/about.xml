@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/view_outside_1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0" />
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="@integer/sheet_weight"
+        android:background="@color/bar_action_bg"
+        android:paddingEnd="@dimen/activity_horz_margin"
+        android:paddingStart="@dimen/activity_horz_margin"
+        android:paddingBottom="36dp"
+        android:paddingTop="36dp">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TableRow>
+
+                <TextView
+                    style="@style/Copyright"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:padding="8dp"
+                    android:text="@string/about_dev_label" />
+
+                <TextView
+                    android:id="@+id/tv_dev"
+                    style="@style/Copyright"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:padding="8dp"
+                    android:text="@string/about_dev" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/Copyright"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:padding="8dp"
+                    android:text="@string/about_copyright_label" />
+
+                <TextView
+                    android:id="@+id/tv_copyright"
+                    style="@style/Copyright"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:padding="8dp"
+                    android:text="@string/about_copyright" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/Copyright"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:padding="8dp"
+                    android:text="@string/about_site_label" />
+
+                <TextView
+                    android:id="@+id/tv_site"
+                    style="@style/Copyright"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:padding="8dp"
+                    android:text="@string/about_site" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/view_outside_2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0" />
+
+</LinearLayout>

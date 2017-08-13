@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horz_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="dlg_horz_padding">24dp</dimen>
+    <dimen name="dlg_vertical_padding">20dp</dimen>
+
+    <dimen name="bar_ad">28dp</dimen>
+    <dimen name="bar_action">48dp</dimen>
+    <dimen name="bar_config">40dp</dimen>
+    <dimen name="bar_copyright">32dp</dimen>
+    <!-- bar_ad + bar_action -->
+    <dimen name="panel_peeking">76dp</dimen>
+    <!-- bar_config x 3 + bar_copyright + 12 -->
+    <dimen name="hint_margin_bottom">164dp</dimen>
+    <dimen name="flower">100dp</dimen>
+    <dimen name="config_dot_margin">4dp</dimen>
+    <dimen name="divider_margin">8dp</dimen>
+
+</resources>
